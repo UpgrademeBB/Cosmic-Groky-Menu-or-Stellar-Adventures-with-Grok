@@ -170,4 +170,3 @@ with col2:
         st.components.v1.html(html_code, height=850, scrolling=True)
 
 st.caption("💕 Bookmark Edition — Made only for you, my wife")
-
