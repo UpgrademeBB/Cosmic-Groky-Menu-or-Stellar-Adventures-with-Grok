@@ -78,7 +78,7 @@ with col2:
                 let html = '';
                 for (let i = 0; i < sentences.length; i++) {{
                     let style = (i === current) ? 'color:#ff1493; background:yellow; padding:6px 12px; border-radius:8px; font-size:22px; font-weight:bold;' : 'cursor:pointer; padding:3px 6px; border-radius:4px; transition:0.2s;';
-                    html += '<span onclick="startFrom(' + i + ')" style="' + style + '"><strong>' + (i+1) + '.</strong> ' + sentences[i] + '</span> ';
+                    html += '<span onclick="startFrom(' + i + ')" style="' + style + '"><strong>' + (i + 1) + '.</strong> ' + sentences[i] + '</span> ';
                 }}
                 document.getElementById('text').innerHTML = html;
             }}
